@@ -1,0 +1,5 @@
+Use MyshopPOS
+
+delete from  function_lst  where fun='FunFIND'
+
+insert into function_lst (keymap_value,fun,hzfun) values ('91','FunFind','≤È—Øº€∏Ò')

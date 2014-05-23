@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss PUBLIC "-//JBoss//DTD JBOSS 3.2//EN" "http://www.jboss.org/j2ee/dtd/jboss_3_2.dtd">
+<jboss>
+  <enterprise-beans>
+    <session>
+      <ejb-name>ShoppingCard</ejb-name>
+      <jndi-name>pos41/ejb/ShoppingCard</jndi-name>
+      <resource-ref>
+        <res-ref-name>jdbc/SHCard</res-ref-name>
+        <jndi-name>java:/SHCard</jndi-name>
+      </resource-ref>
+    </session>
+  </enterprise-beans>
+</jboss>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<project name="posv41" basedir="." default="copy">
+
+	<property name="build"  value="${basedir}"/>
+	<property name="deploy" value="${basedir}/deploy/posv41"/>
+
+	<target name="jar">
+	
+	  <jar destfile="${build}/posv41.jar" basedir="${build}/classes">
+	      <manifest>
+      		<attribute name="POS-Version" value="POS40_410249_RH"/>
+      	  </manifest>
+      </jar>
+
+	  <jar destfile="${build}/loader.jar">
+	      <manifest>
+      		<attribute name="Loader-Version" value="POS40__410249_RH"/>
+      	  </manifest>
+      	  <fileset dir="${build}/classes" includes="images/login.jpg,com/royalstone/pos/loader/ProgramLoader.class,com/royalstone/pos/invoke/FileDownload.class,com/royalstone/pos/util/UnZipFile.class,com/royalstone/pos/invoke/HttpInvoker.class,com/royalstone/pos/invoke/MarshalledValue.class,com/royalstone/pos/util/JarVersion.class,com/royalstone/pos/util/POSVersionVO.class,com/royalstone/pos/gui/StartFrame.class,com/royalstone/pos/gui/StartPanel.class,com/royalstone/pos/util/UpdateFile.class,com/royalstone/pos/util/UpdateList.class,com/royalstone/pos/util/Response.class,com/royalstone/pos/util/Day.class,com/royalstone/pos/util/PosTime.class,com/royalstone/pos/gui/DialogConfirm.class" />
+      </jar>
+
+	  <jar destfile="${build}/drv/driver.zip">
+	      <manifest>
+      		<attribute name="Driver-Version" value="410001"/>
+      	  </manifest>
+      	  <fileset dir="${build}/drv" includes="**/*.dll" />
+      </jar>
+	  
+	</target>
+	
+	<target name="copy" depends="jar">
+	
+		<mkdir dir="${deploy}/journal"/>
+		<mkdir dir="${deploy}/log"/>
+				
+		<copy file="${build}/posv41.jar" tofile="${deploy}/posv41.jar"/>
+		<copy file="${build}/loader.jar" tofile="${deploy}/loader.jar"/>
+		<copy file="${build}/jpos.xml" tofile="${deploy}/jpos.xml"/>
+		<copy file="${build}/lcp.bat" tofile="${deploy}/lcp.bat"/>
+		<copy file="${build}/pos.ini" tofile="${deploy}/pos.ini"/>
+		<copy file="${build}/posticket.xml" tofile="${deploy}/posticket.xml"/>
+		<copy file="${build}/CustDisplay.properties" tofile="${deploy}/CustDisplay.properties"/>
+		<copy file="${build}/run.bat" tofile="${deploy}/run.bat"/>
+		<copy file="${build}/main.bat" tofile="${deploy}/main.bat"/>
+		<copy file="${build}/win32com.dll" tofile="${deploy}/win32com.dll"/>
+		<copy file="${build}/server.xml" tofile="${deploy}/server.xml"/>
+		<copy file="${build}/web.xml" tofile="${deploy}/web.xml"/>
+		<!--<copy file="${build}/winkeymap.xml" tofile="${deploy}/winkeymap.xml"/>-->
+		
+		<copy todir="${deploy}/drv">
+		    <fileset dir="${build}/drv">
+		    	<include name="**/*.dll"/>
+		    	<exclude name="winio.dll"/>
+		    </fileset>
+	    </copy>
+		
+		<copy todir="${deploy}/lib">
+		    <fileset dir="${build}/lib" />
+	    </copy>
+	    
+	    <copy todir="${deploy}/jdk1.4.2_04">
+	    	<fileset dir="${build}/jdk1.4.2_04" />
+	    </copy>
+	    
+	</target>
+	
+</project>

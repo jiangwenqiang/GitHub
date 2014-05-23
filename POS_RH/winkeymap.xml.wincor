@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<keyboard>
+	<key name="VK_ESCAPE" mapchar="VK_ESCAPE" desc="K11">VK_ESCAPE</key>
+	<key name="VK_BACK_SPACE" mapchar="-" desc="K12">VK_MINUS</key>
+	<key name="VK_F1" mapchar="'" desc="K13">VK_QUOTE</key>
+	<key name="VK_F2" mapchar="`" desc="K14">VK_BACK_QUOTE</key>
+	<key name="VK_F3" mapchar="m" desc="K15">VK_M</key>
+	<key name="VK_F4" mapchar="," desc="K16">VK_COMMA</key>
+	<key name="VK_F5" mapchar="n" desc="K17">VK_N</key>
+	<key name="VK_F6" mapchar="[" desc="K18">VK_OPEN_BRACKET</key>
+	<key name="VK_F7" mapchar="]" desc="K19">VK_CLOSE_BRACKET</key>
+	<key name="VK_F8" mapchar="i" desc="K1a">VK_I</key>
+	<key name="VK_F9" mapchar="o" desc="K1b">VK_O</key>
+	<key name="VK_F10" mapchar="d" desc="K1c">VK_P</key>
+	<key name="VK_HOME" mapchar="q" desc="K21">VK_Q </key>
+	<key name="VK_UP" mapchar="w" desc="K22">VK_W</key>
+	<key name="VK_PAGE_UP" mapchar="e" desc="K23">VK_E</key>
+	<key name="VK_NUMPAD7" mapchar="7" desc="K24">VK_7</key>
+	<key name="VK_NUMPAD8" mapchar="8" desc="K25">VK_8</key>
+	<key name="VK_NUMPAD9" mapchar="9" desc="K26">VK_9</key>
+	<key name="VK_A" mapchar="VK_BACK_SPACE" desc="K27">VK_BACK_SPACE</key>
+	<key name="VK_B" mapchar="VK_BACK_SPACE" desc="K28">VK_BACK_SPACE</key>
+	<key name="VK_C" mapchar="r" desc="K29">VK_R</key>
+	<key name="VK_D" mapchar="t" desc="K2a">VK_T</key>
+	<key name="VK_E" mapchar="y" desc="K2b">VK_Y</key>
+	<key name="VK_F" mapchar="u" desc="K2c">VK_U</key>
+	<key name="VK_LEFT" mapchar="a" desc="K31">VK_A</key>
+	<key name="VK_SPACE" mapchar="s" desc="K32">VK_S</key>
+	<key name="VK_RIGHT" mapchar="d" desc="K33">VK_D</key>
+	<key name="VK_NUMPAD4" mapchar="4" desc="K34">VK_4</key>
+	<key name="VK_NUMPAD5" mapchar="5" desc="K35">VK_5</key>
+	<key name="VK_NUMPAD6" mapchar="6" desc="K36">VK_6</key>
+	<key name="VK_G" mapchar="f" desc="K37">VK_F</key>
+	<key name="VK_H" mapchar="f" desc="K38">VK_F</key>
+	<key name="VK_I" mapchar="r" desc="K39">VK_R</key>
+	<key name="VK_J" mapchar="g" desc="K3a">VK_G</key>
+	<key name="VK_K" mapchar="h" desc="K3b">VK_H</key>
+	<key name="VK_L" mapchar="j" desc="K3c">VK_J</key>
+	<key name="VK_END" mapchar="b" desc="K41">VK_B</key>
+	<key name="VK_DOWN" mapchar="z" desc="K42">VK_Z</key>
+	<key name="VK_PAGE_DOWN" mapchar="x" desc="K43">VK_X</key>
+	<key name="VK_NUMPAD1" mapchar="1" desc="K44">VK_1</key>
+	<key name="VK_NUMPAD2" mapchar="2" desc="K45">VK_2</key>
+	<key name="VK_NUMPAD3" mapchar="3" desc="K46">VK_3</key>
+	<key name="VK_ENTER" mapchar="VK_ENTER" desc="K47">VK_ENTER</key>
+	<key name="VK_M" mapchar="VK_ENTER" desc="K48">VK_ENTER</key>
+	<key name="VK_Z" mapchar="c" desc="K49">VK_C</key>
+	<key name="VK_O" mapchar="k" desc="K4a">VK_K</key>
+	<key name="VK_P" mapchar="VK_UP" desc="K4b">VK_UP</key>
+	<key name="VK_Q" mapchar="l" desc="K4c">VK_L</key>
+	<key name="VK_ADD" mapchar=" " desc="K51">VK_F1</key>
+	<key name="VK_SUBTRACT" mapchar=" " desc="K52">VK_F2</key>
+	<key name="VK_NUMPAD0" mapchar="." desc="K53">VK_PERIOD</key>
+	<key name="VK_R" mapchar="0" desc="K54">VK_0</key>
+	<key name="VK_S" mapchar="0" desc="K55">VK_0</key>
+	<key name="VK_DECIMAL" mapchar="0|0" desc="K56">VK_0|VK_0</key>
+	<key name="VK_U" mapchar="VK_ENTER" desc="K57">VK_ENTER</key>
+	<key name="VK_V" mapchar="VK_ENTER" desc="K58">VK_ENTER</key>
+	<key name="VK_W" mapchar="c" desc="K59">VK_C</key>
+	<key name="VK_X" mapchar="v" desc="K5a">VK_V</key>
+	<key name="VK_Y" mapchar=" " desc="K5b">VK_DOWN</key>
+	<key name="VK_N" mapchar=" " desc="K5c">VK_RIGHT</key>	
+	
+</keyboard>

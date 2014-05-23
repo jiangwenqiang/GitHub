@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<com.royalstone.pos.util.XMLObjectHelper>
+    <Field name="str1" type="java.lang.String">haha</Field>
+    <Field name="n" type="int">0</Field>
+    <Field name="d" type="double">445.0</Field>
+    <Field name="date" type="java.util.Date">Fri May 28 22:07:19 CST 2004</Field>
+    <Field name="adfd" type="java.lang.Integer">12</Field>
+</com.royalstone.pos.util.XMLObjectHelper>
+

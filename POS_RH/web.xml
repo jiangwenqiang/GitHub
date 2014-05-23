@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>POSDispatch</display-name>
+  <description>
+  	POS Dispatch
+  </description>
+
+<!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <servlet-name>DispatchServlet</servlet-name>
+        <servlet-class>com.royalstone.pos.web.DispatchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>com.royalstone.pos.web.DownloadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PriceTable</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceTable</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PriceTableExt</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceTableExt</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PosInit</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PosInit</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CardType</servlet-name>
+        <servlet-class>com.royalstone.pos.web.CardType</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PriceDemo</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceDemo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PriceSize</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceSize</servlet-class>
+    </servlet>
+      <servlet>
+        <servlet-name>UpdatePrice</servlet-name>
+        <servlet-class>com.royalstone.pos.web.UpdatePriceServlet</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>AccurateTable</servlet-name>
+        <servlet-class>com.royalstone.pos.web.AccurateTable</servlet-class>
+    </servlet>
+
+     <servlet>
+        <servlet-name>PriceTableComb</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceTableComb</servlet-class>
+    </servlet>
+
+      <servlet>
+        <servlet-name>PriceTableCut</servlet-name>
+        <servlet-class>com.royalstone.pos.web.PriceTableCut</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>PriceTableCut</servlet-name>
+        <url-pattern>/PriceTableCut</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>PriceTableComb</servlet-name>
+        <url-pattern>/PriceTableComb</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>AccurateTable</servlet-name>
+        <url-pattern>/AccurateTable</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>UpdatePrice</servlet-name>
+        <url-pattern>/UpdatePrice</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>PriceSize</servlet-name>
+        <url-pattern>/PriceSize</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DispatchServlet</servlet-name>
+        <url-pattern>/DispatchServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/DownloadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PriceTable</servlet-name>
+        <url-pattern>/PriceTable</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PriceTableExt</servlet-name>
+        <url-pattern>/PriceTableExt</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PosInit</servlet-name>
+        <url-pattern>/PosInit</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CardType</servlet-name>
+        <url-pattern>/CardType</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PriceDemo</servlet-name>
+        <url-pattern>/PriceDemo</url-pattern>
+    </servlet-mapping>
+
+<!-- JSPC servlet mappings end -->
+ <!--data source-->
+    <resource-ref>
+     <description>DB Connection</description>
+     <res-ref-name>dbpos</res-ref-name>
+     <res-type>javax.sql.DataSource</res-type>
+     <res-auth>Container</res-auth>
+ </resource-ref>
+     <resource-ref>
+     <description>DB Connection</description>
+     <res-ref-name>dbcard</res-ref-name>
+     <res-type>javax.sql.DataSource</res-type>
+     <res-auth>Container</res-auth>
+ </resource-ref>
+
+</web-app>

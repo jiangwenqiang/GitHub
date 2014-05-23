@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+"jpos/res/jcl.dtd">
+<JposEntries>
+<JposEntry logicalName="POSPrinter">
+<creation factoryClass="com.royalstone.pos.services.factories.JournalPrinterServiceInstanceFactory" serviceClass="com.royalstone.pos.services.JournalPrinter"/>
+<vendor name="royalstone" url="royalstone"/>
+<jpos category="POSPrinter" version="1.2"/>
+<product description="pos41" name="pos41" url="www.royalstone.com.cn"/>
+<prop name="vendor.Title" type="String" value="Journal Printer"/>
+<prop name="vendor.Columns" type="String" value="20"/>
+<prop name="vendor.Rows" type="String" value="10"/>
+<prop name="vendor.font" type="String" value="Courier"/>
+<prop name="vendor.pointsize" type="String" value="9"/>
+<prop name="vendor.Width" type="String" value="200"/>
+<prop name="vendor.Height" type="String" value="200"/>
+<prop name="vendor.Xoffset" type="String" value="800"/>
+<prop name="vendor.Yoffset" type="String" value="200"/>
+</JposEntry>
+<JposEntry logicalName="POSPrinterEx">
+<creation factoryClass="com.royalstone.pos.services.factories.RSServiceInstanceFactory" serviceClass="com.royalstone.pos.services.POSPrinter"/>
+<vendor name="Royalstone software Inc." url="http://www.royalstone.cn"/>
+<jpos category="Printer" version="1.4"/>
+<product description="Printer" name="Royalstone software Inc. Services for JavaPOS(TM) Standard" url="http://www.royalstone.cn"/>
+<prop name="portName" value="COM1"/>
+<prop name="baudRate" value="9600"/>
+<prop name="byteSize" value="8"/>
+<prop name="stopBits" value="0"/>
+<prop name="parity" value="0"/>
+<prop name="driverName" value="drv/RSPrinter41_TM_U210_EX"/>
+</JposEntry>
+<JposEntry logicalName="POSCashDrawer">
+<creation factoryClass="com.royalstone.pos.services.factories.RSServiceInstanceFactory" serviceClass="com.royalstone.pos.services.POSCashDrawer"/>
+<vendor name="Royalstone software Inc." url="http://www.royalstone.cn"/>
+<jpos category="CashDrawer" version="1.4"/>
+<product description="CashDrawer" name="Royalstone software Inc. Services for JavaPOS(TM) Standard" url="http://www.royalstone.cn"/>
+<prop name="portName" value="COM1"/>
+<prop name="baudRate" value="9600"/>
+<prop name="byteSize" value="8"/>
+<prop name="stopBits" value="0"/>
+<prop name="parity" value="0"/>
+<prop name="driverName" value="drv/RSCashDrawer_TM_U210"/>
+</JposEntry>
+<JposEntry logicalName="POSCustDisplay">
+<creation factoryClass="com.royalstone.pos.services.factories.RSServiceInstanceFactory" serviceClass="com.royalstone.pos.services.CustDisplay"/>
+<vendor name="Royalstone software Inc." url="http://www.royalstone.cn"/>
+<jpos category="LineDisplay" version="1.4"/>
+<product description="LineDisplay" name="Royalstone software Inc. Services for JavaPOS(TM) Standard" url="http://www.royalstone.cn"/>
+<prop name="portName" value="COM3"/>
+<prop name="baudRate" value="2400"/>
+<prop name="byteSize" value="8"/>
+<prop name="stopBits" value="0"/>
+<prop name="parity" value="0"/>
+<prop name="driverName" value="drv/RSVFD41_1008G"/>
+</JposEntry>
+
+</JposEntries>

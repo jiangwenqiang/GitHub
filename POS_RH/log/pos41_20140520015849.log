@@ -1,0 +1,111 @@
+java.io.FileNotFoundException: winkeymap.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at com.royalstone.pos.keymap.WinKeyMap.<init>(WinKeyMap.java:46)
+	at com.royalstone.pos.keymap.AllKeyEventListener$TheListener.<init>(AllKeyEventListener.java:54)
+	at com.royalstone.pos.keymap.AllKeyEventListener.<init>(AllKeyEventListener.java:35)
+	at com.royalstone.pos.shell.pos.main(pos.java:166)
+load pos.xml, price.xml, operator.lst ... 
+Invoke OperatorCommand! 
+2014-05-20 10:08:52 [0] OK
+Invoke FavorCommand! 
+Del ... pos.BAK.xml
+Ren ... pos.xml pos.BAK.xml
+Ren ... pos.NEW.xml pos.xml
+Invoke DiscountCommand! 
+2014-05-20 10:08:54 [0] OK
+Del ... promo/pricecut.BAK.xml
+Ren ... promo/pricecut.xml promo/pricecut.BAK.xml
+Ren ... promo/pricecut.NEW.xml promo/pricecut.xml
+Del ... promo/pricecomb.BAK.xml
+Ren ... promo/pricecomb.xml promo/pricecomb.BAK.xml
+Ren ... promo/pricecomb.NEW.xml promo/pricecomb.xml
+Del ... promo/accurate.BAK.xml
+Ren ... promo/accurate.xml promo/accurate.BAK.xml
+Ren ... promo/accurate.NEW.xml promo/accurate.xml
+Del ... operator.BAK.lst
+Ren ... operator.lst operator.BAK.lst
+Ren ... operator.NEW.lst operator.lst
+Del ... price.BAK.xml
+Ren ... price.xml price.BAK.xml
+Ren ... price.NEW.xml price.xml
+Del ... promo/discount.BAK.lst
+Ren ... promo/discount.lst promo/discount.BAK.lst
+Ren ... promo/discount.NEW.lst promo/discount.lst
+Del ... promo/favor.BAK.lst
+Ren ... promo/favor.lst promo/favor.BAK.lst
+Ren ... promo/favor.NEW.lst promo/favor.lst
+Del ... promo/priceExt.BAK.xml
+Ren ... promo/priceExt.xml promo/priceExt.BAK.xml
+Ren ... promo/priceExt.NEW.xml promo/priceExt.xml
+Del ... promo/cardtype.BAK.xml
+Ren ... promo/cardtype.xml promo/cardtype.BAK.xml
+Ren ... promo/cardtype.NEW.xml promo/cardtype.xml
+Del ... property.BAK.xml
+Ren ... property.xml property.BAK.xml
+Ren ... property.NEW.xml property.xml
+javapos init...
+
+Max Held sheet: 4
+node name: goodscomblist
+node name: goodscutlist
+Init Exchange List ...
+Set Currency rate for RMB
+Init Price List ...
+node name: goodslist
+Init PriceExt List ...
+Init Discount List ...
+Load Discount_list ... 
+Discount_list Loaded.
+Init Favor List ...
+DiscComplexList load start ... 
+DiscComplexList load over. 
+javapos run...
+2001vvvvvv00c
+21vvvvvvddddc
+22xxxxxwwwwwc
+23xxxxxmmmmmc
+26aaaaaa0000c
+29sssssss000c
+登录成功......
+in quickcorrectrow....
+选择的行:1
+in quickcorrectrow....
+选择的行:0
+Begin writeJournal(2014-05-20.P001.00001.xml)... 
+Invoke! Begin upload journal... 
+dump journal... 
+if mvO is null?false
+if results is null?false
+if results.length=1
+2014-05-20 10:09:23 [0] Duplicated journal saved.
+if result is null?false
+if result.succeed=true
+workTurn is null
+2014-05-20 not exists
+srcfile=journal\2014-05-20.P001.00001.xml
+destfile=journal\2014-05-20\2014-05-20.P001.00001.xml
+transbytes=3458
+Begin delete file "journal\2014-05-20.P001.00001.xml"
+Delete file "journal\2014-05-20.P001.00001.xml" return true
+Invoke! 
+2014-05-20 10:09:58 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:58 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:09:59 [0] Log saved.
+Invoke! 
+2014-05-20 10:10:00 [0] Log saved.
+退出成功......
+Invoke! 

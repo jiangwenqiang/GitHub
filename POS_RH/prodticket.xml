@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<PosTicket width="35" leftMargin="0" rightMargin="0" pwidth ="155" pheight = "105" feedline = "4" seperator="=">
+	<Header>
+	</Header>
+	<Info>
+		<table columns="3">
+			<row>
+				<column>机号:${PosID}</column>
+				<column>单号:${SheetID}</column>
+				<column>页码:${PageNo}</column>
+			</row>
+			<row>
+				<column>收银员:${Cashier}</column>
+			</row>
+			<row>
+				<column span = "3">日期时间:${DateTime}</column>
+			</row>
+		</table>
+	</Info>
+	<Content>
+		<Title>
+		</Title>
+		<Sale>
+			<table columns="1">
+				<row>
+					<column>商品编码:${GoodsNo}</column>
+				</row>
+				<row>
+					<column>商品名称:${GoodsName}</column>
+				</row>
+				<row>
+					<column>加工属性:${Product}</column>
+				</row>
+			</table>
+		</Sale>
+	</Content>
+</PosTicket>

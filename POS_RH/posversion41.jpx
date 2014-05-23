@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="ejbModule" name="last.wizard.module.name" value="pos41_ejb"/>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="personality" name="personality" value="com.borland.jbuilder.webservices.personality.WebServicesPersonality com.borland.jbuilder.personality.J2MEPersonality "/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime" name="ExcludeDefaultForZero" value="1"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore;sqlj"/>
+  <property category="serverservices" name="single.server.name" value="JBoss 3.x+"/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2003"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="Encoding" value="GB2312"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_02-b03"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="JBoss 3.x+ Client"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="pos41_ejb" type="EjbModuleNode">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.enterprise.module.ModuleArchiver"/>
+    <property category="archiving" name="includeDeps" value="1"/>
+    <property category="archiving" name="outPathState" value="2"/>
+    <property category="archiving" name="targetPath" value="pos41_ejb.jar"/>
+    <property category="bes" name="add.layout.descriptor.jar.50" value="1"/>
+    <property category="bes" name="add.layout.descriptor.jar.50x" value="1"/>
+    <property category="bes" name="add.schema.descriptor.jar.50" value="1"/>
+    <property category="bes" name="add.schema.descriptor.jar.50x" value="1"/>
+    <property category="ejbmodeler" name="add.layout.descriptor.jar" value="1"/>
+    <property category="ejbmodeler" name="add.schema.descriptor.jar" value="1"/>
+    <property category="module" name="directory" value="ejbmodule"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.1" value="CVS"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.2" value=".cvsignore"/>
+    <property category="module" name="extraDefaultDirectoriesToKeepOnClean.3" value="vssver.scc"/>
+    <property category="module" name="lastServer" value="JBoss 3.x+"/>
+    <property category="module" name="supported.features.1" value="EJB 2.0"/>
+  </node>
+  <file path="posversion41.html"/>
+</project>

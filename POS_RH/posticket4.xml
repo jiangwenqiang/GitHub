@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="GB2312"?>
+
+<PosTicket width="40" leftMargin="0" rightMargin="0" seperator="=">
+	
+	<Header>
+		<table columns="1">
+			<row>
+				<column align="center">${Header1}</column>
+			</row>
+			<row>
+				<column align="center">${Header2}</column>
+			</row>
+		</table>
+	</Header>
+	
+	<Info>
+		<table columns="3">
+			<row>
+				<column>店  号:${ShopID}</column>
+				<column>机  号:${PosID}</column>
+				<column>单据号:${SheetID}</column>
+			</row>
+			<row>
+				<column>收银员:${Cashier}</column>
+				<column span="2">日  期:${Date}</column>
+			</row>
+		</table>
+	</Info>
+	<Content>
+	
+		<Title>
+			<table columns="5">
+				<row>
+					<column align="center" span="2">商品名称</column>
+					<column align="right">数量</column>
+					<column align="right">单价</column>
+					<column align="right">金额</column>
+				</row>
+			</table>
+		</Title>
+		
+		<Sale>
+			<table columns="5">
+				<row>
+					<column span="5">${GoodsName}</column>
+				</row>
+				<row>
+					<column align="right" span="2">${Barcode}</column>
+					<column align="right">${Quantity}</column>
+					<column align="right">${Price}</column>
+					<column align="right">${Amount}</column>
+				</row>
+			</table>
+		</Sale>
+		
+		<Discount>
+			<table columns="4">
+				<row>
+					<column>${DiscDesc}</column>
+					<column span="3" align="right">${DiscValue}</column>
+				</row>
+			</table>
+		</Discount>
+		
+		<Subtotal>
+			<table columns="4">
+				<row>
+					<column>${SubtotalDesc}</column>
+					<column span="3" align="right">${SubtotalValue}</column>
+				</row>
+			</table>
+		</Subtotal>
+		
+		<Payment>
+			<table columns="4">
+				<row>
+					<column align="left">${PayType}</column>
+					<column align="right">${Currency}</column>
+					<column span="2" align="right">${PayAmount}</column>
+				</row>
+			</table>
+		</Payment>
+		
+		<LoanCard>
+			<table columns="4">
+				<row>
+					<column>卡  号:</column>
+					<column span="3" align="right">${loadCardNo}</column>
+				</row>
+				<row>
+					<column>卡余额:</column>
+					<column span="3" align="right">${loadCardBalance}</column>
+				</row>
+			</table>
+		</LoanCard>
+
+		<Plan>
+			<table columns="4">
+				<row>
+					<column>方案号:</column>
+					<column span="3" align="right">${<Plan>}</column>
+				</row>
+				<row>
+					<column>扣减积分:</column>
+					<column span="3" align="right">${<PlanPoint>}</column>
+				</row>
+			</table>
+		</Plan>
+		
+		<Total>
+			<table columns="4">
+				<row>
+					<column></column>
+					<column align="right">应收:</column>
+					<column span="2" align="right">${ActualPayAmount}</column>
+				</row>
+				<row>
+					<column></column>
+					<column align="right">实收:</column>
+					<column span="2" align="right">${TotalPayAmount}</column>
+				</row>
+				<row>
+					<column></column>
+					<column align="right">找赎:</column>
+					<column span="2" align="right">${Change}</column>
+				</row>
+				<row visible="${ShowDiscountTotal}">
+					<column></column>
+					<column align="right">优惠总额:</column>
+					<column span="2" align="right">${DiscountTotal}</column>
+				</row>
+			</table>			
+		</Total>
+		
+	</Content>
+	<Trail>
+		<table columns="1">
+			<row>
+				<column align="center">${Trail1}</column>
+			</row>
+			<row>
+				<column align="center">${Trail2}</column>
+			</row>
+			<row>
+				<column align="center">${Trail3}</column>
+			</row>
+		</table>
+	</Trail>
+</PosTicket>

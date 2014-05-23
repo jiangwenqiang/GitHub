@@ -1,0 +1,11 @@
+Invoke! 
+2014-05-20 10:24:12 [0] Log saved.
+Invoke! 
+2014-05-20 10:24:12 [0] Log saved.
+com.royalstone.pos.util.UserExitException: User exit system ...
+	at com.royalstone.pos.io.PosDevIn.getDigit4Logon(PosDevIn.java:942)
+	at com.royalstone.pos.io.PosDevIn.getInputLogon(PosDevIn.java:808)
+	at com.royalstone.pos.shell.PosShell.logon_online(pos.java:668)
+	at com.royalstone.pos.shell.PosShell.run(pos.java:528)
+	at com.royalstone.pos.shell.pos.main(pos.java:177)
+User exit...

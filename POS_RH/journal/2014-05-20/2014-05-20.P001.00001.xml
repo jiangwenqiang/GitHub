@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="GB2312"?>
+<journal>
+  <sheet>
+    <salelist>
+      <sale>
+        <goods>
+          <vgno>000001</vgno>
+          <barcode>6920671202135</barcode>
+          <name>迷你七星伴月</name>
+          <deptid>01212133</deptid>
+          <spec>680g</spec>
+          <unit>盒</unit>
+          <price>32800</price>
+          <type>0</type>
+          <x>1</x>
+          <ptype>n</ptype>
+          <prodtype>1</prodtype>
+        </goods>
+        <proplist>
+          <prop>
+            <id>2</id>
+            <name>少冰</name>
+            <price>0.0</price>
+            <flag>1</flag>
+          </prop>
+        </proplist>
+        <vgno>000001</vgno>
+        <barcode>6920671202135</barcode>
+        <orgcode>000001</orgcode>
+        <deptid>01212133</deptid>
+        <qty>1</qty>
+        <type>s</type>
+        <disctype>n</disctype>
+        <waiter />
+        <authorizer />
+        <placeno>Z00000</placeno>
+        <colorsize />
+        <stdprice>32800</stdprice>
+        <x>1</x>
+        <itemvalue>32800</itemvalue>
+        <discvalue>0</discvalue>
+        <factvalue>32800</factvalue>
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-20</sysdate>
+        <systime>01:57:51</systime>
+      </sale>
+      <sale>
+        <goods>
+          <vgno>000002</vgno>
+          <barcode>6920671202128</barcode>
+          <name>七星伴月</name>
+          <deptid>01312133</deptid>
+          <spec>1450g</spec>
+          <unit>盒</unit>
+          <price>55800</price>
+          <type>0</type>
+          <x>1</x>
+          <ptype>n</ptype>
+          <prodtype>1</prodtype>
+        </goods>
+        <proplist>
+          <prop>
+            <id>1</id>
+            <name>加糖</name>
+            <price>0.0</price>
+            <flag>1</flag>
+          </prop>
+        </proplist>
+        <vgno>000002</vgno>
+        <barcode>6920671202128</barcode>
+        <orgcode>000002</orgcode>
+        <deptid>01312133</deptid>
+        <qty>1</qty>
+        <type>s</type>
+        <disctype>n</disctype>
+        <waiter />
+        <authorizer />
+        <placeno>Z00000</placeno>
+        <colorsize />
+        <stdprice>55800</stdprice>
+        <x>1</x>
+        <itemvalue>55800</itemvalue>
+        <discvalue>0</discvalue>
+        <factvalue>55800</factvalue>
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-20</sysdate>
+        <systime>01:57:53</systime>
+      </sale>
+    </salelist>
+    <paymentlist>
+      <payment>
+        <reason>P</reason>
+        <type>C</type>
+        <currency>RMB</currency>
+        <value>90000</value>
+        <value_equiv>90000</value_equiv>
+        <cardno />
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-20</sysdate>
+        <systime>01:58:01</systime>
+      </payment>
+      <payment>
+        <reason>R</reason>
+        <type>C</type>
+        <currency>RMB</currency>
+        <value>-1400</value>
+        <value_equiv>-1400</value_equiv>
+        <cardno />
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-20</sysdate>
+        <systime>01:58:01</systime>
+      </payment>
+    </paymentlist>
+  </sheet>
+  <context>
+    <storeid>SZ04</storeid>
+    <posid>P001</posid>
+    <cashierid>9901</cashierid>
+    <sheetid>1</sheetid>
+    <orderid>0</orderid>
+    <orderlstid>0</orderlstid>
+    <mode>ONLINE</mode>
+    <workdate>2014-05-20</workdate>
+  </context>
+</journal>
+

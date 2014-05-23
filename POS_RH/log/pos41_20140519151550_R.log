@@ -1,0 +1,207 @@
+java.io.FileNotFoundException: winkeymap.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at com.royalstone.pos.keymap.WinKeyMap.<init>(WinKeyMap.java:46)
+	at com.royalstone.pos.keymap.AllKeyEventListener$TheListener.<init>(AllKeyEventListener.java:54)
+	at com.royalstone.pos.keymap.AllKeyEventListener.<init>(AllKeyEventListener.java:35)
+	at com.royalstone.pos.shell.pos.main(pos.java:166)
+load pos.xml, price.xml, operator.lst ... 
+Invoke OperatorCommand! 
+2014-05-19 22:57:33 [0] OK
+Invoke FavorCommand! 
+java.io.InvalidClassException: com.royalstone.pos.util.Day; local class incompatible: stream classdesc serialVersionUID = -1217107188424197749, local class serialVersionUID = -4128913517386768910
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:463)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1521)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1435)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1626)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1603)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1271)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1603)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1271)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:324)
+	at com.royalstone.pos.invoke.HttpInvoker.invoke(HttpInvoker.java:52)
+	at com.royalstone.pos.loader.FavorLoader.download(FavorLoader.java:58)
+	at com.royalstone.pos.loader.PosSynchronizer.synchronize(PosSynchronizer.java:56)
+	at com.royalstone.pos.shell.PosShell.synchronizeData(pos.java:479)
+	at com.royalstone.pos.shell.pos.main(pos.java:171)
+java.io.InvalidClassException: com.royalstone.pos.util.Day; local class incompatible: stream classdesc serialVersionUID = -1217107188424197749, local class serialVersionUID = -4128913517386768910
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:463)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1521)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1435)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1626)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1603)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1271)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1603)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1271)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:324)
+	at com.royalstone.pos.invoke.HttpInvoker.invoke(HttpInvoker.java:52)
+	at com.royalstone.pos.loader.FavorLoader.download(FavorLoader.java:58)
+	at com.royalstone.pos.loader.PosSynchronizer.synchronize(PosSynchronizer.java:56)
+	at com.royalstone.pos.shell.PosShell.synchronizeData(pos.java:479)
+	at com.royalstone.pos.shell.pos.main(pos.java:171)
+Del ... pos.BAK.xml
+Ren ... pos.xml pos.BAK.xml
+Ren ... pos.NEW.xml pos.xml
+Invoke DiscountCommand! 
+2014-05-19 22:57:34 [0] OK
+Del ... promo/pricecut.BAK.xml
+Ren ... promo/pricecut.xml promo/pricecut.BAK.xml
+Ren ... promo/pricecut.NEW.xml promo/pricecut.xml
+Del ... promo/pricecomb.BAK.xml
+Ren ... promo/pricecomb.xml promo/pricecomb.BAK.xml
+Ren ... promo/pricecomb.NEW.xml promo/pricecomb.xml
+Del ... promo/accurate.BAK.xml
+Ren ... promo/accurate.xml promo/accurate.BAK.xml
+Ren ... promo/accurate.NEW.xml promo/accurate.xml
+Del ... operator.BAK.lst
+Ren ... operator.lst operator.BAK.lst
+Ren ... operator.NEW.lst operator.lst
+Del ... price.BAK.xml
+Ren ... price.xml price.BAK.xml
+Ren ... price.NEW.xml price.xml
+Del ... promo/discount.BAK.lst
+Ren ... promo/discount.lst promo/discount.BAK.lst
+Ren ... promo/discount.NEW.lst promo/discount.lst
+Del ... promo/priceExt.BAK.xml
+Ren ... promo/priceExt.xml promo/priceExt.BAK.xml
+Ren ... promo/priceExt.NEW.xml promo/priceExt.xml
+Del ... promo/cardtype.BAK.xml
+Ren ... promo/cardtype.xml promo/cardtype.BAK.xml
+Ren ... promo/cardtype.NEW.xml promo/cardtype.xml
+Del ... property.BAK.xml
+Ren ... property.xml property.BAK.xml
+Ren ... property.NEW.xml property.xml
+javapos init...
+
+Max Held sheet: 4
+node name: goodscomblist
+node name: goodscutlist
+Init Exchange List ...
+Set Currency rate for RMB
+Init Price List ...
+node name: goodslist
+Init PriceExt List ...
+Init Discount List ...
+Load Discount_list ... 
+Discount_list Loaded.
+Init Favor List ...
+DiscComplexList load start ... 
+java.io.InvalidClassException: com.royalstone.pos.util.Day; local class incompatible: stream classdesc serialVersionUID = -1217107188424197749, local class serialVersionUID = -4128913517386768910
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:463)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1521)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1435)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1626)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1845)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1769)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1646)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1274)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:324)
+	at com.royalstone.pos.complex.DiscComplexList.load(DiscComplexList.java:143)
+	at com.royalstone.pos.core.PosCore.init(PosCore.java:157)
+	at com.royalstone.pos.shell.PosShell.init(pos.java:309)
+	at com.royalstone.pos.shell.pos.main(pos.java:173)
+drv/RSPrinter41_TM_U210
+javapos run...
+Begin writeJournal(2014-05-19.P001.00001.xml)... 
+Invoke! Begin upload journal... 
+2001vvvvvv00c
+21vvvvvvddddc
+22xxxxxwwwwwc
+23xxxxxmmmmmc
+26aaaaaa0000c
+29sssssss000c
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:305)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:171)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:158)
+	at java.net.Socket.connect(Socket.java:452)
+	at java.net.Socket.connect(Socket.java:402)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:139)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:402)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:618)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:267)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:320)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:315)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:512)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:489)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:560)
+	at com.royalstone.pos.invoke.HttpInvoker.invoke(HttpInvoker.java:44)
+	at com.royalstone.pos.journal.JournalWriter.writeJournal(JournalWriter.java:114)
+	at com.royalstone.pos.journal.JournalManager.upload(JournalManager.java:44)
+	at com.royalstone.pos.journal.JournalManager.upload(JournalManager.java:26)
+	at com.royalstone.pos.journal.JournalUploader.run(JournalUploader.java:40)
+	at java.lang.Thread.run(Thread.java:534)
+java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:305)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:171)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:158)
+	at java.net.Socket.connect(Socket.java:452)
+	at java.net.Socket.connect(Socket.java:402)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:139)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:402)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:618)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:267)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:320)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:315)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:512)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:489)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:560)
+	at com.royalstone.pos.invoke.HttpInvoker.invoke(HttpInvoker.java:44)
+	at com.royalstone.pos.journal.JournalWriter.writeJournal(JournalWriter.java:114)
+	at com.royalstone.pos.journal.JournalManager.upload(JournalManager.java:44)
+	at com.royalstone.pos.journal.JournalManager.upload(JournalManager.java:26)
+	at com.royalstone.pos.journal.JournalUploader.run(JournalUploader.java:40)
+	at java.lang.Thread.run(Thread.java:534)
+End writeJournal... 
+Begin writeJournal(2014-05-19.P001.00002.xml)... 
+Invoke! Begin upload journal... 

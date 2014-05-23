@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="GB2312"?>
+<journal>
+  <sheet>
+    <salelist>
+      <sale>
+        <goods>
+          <vgno>000001</vgno>
+          <barcode>6920671202135</barcode>
+          <name>迷你七星伴月</name>
+          <deptid>01212133</deptid>
+          <spec>680g</spec>
+          <unit>盒</unit>
+          <price>32800</price>
+          <type>0</type>
+          <x>1</x>
+          <ptype>n</ptype>
+          <prodtype>1</prodtype>
+        </goods>
+        <proplist />
+        <vgno>000001</vgno>
+        <barcode>6920671202135</barcode>
+        <orgcode>000001</orgcode>
+        <deptid>01212133</deptid>
+        <qty>1</qty>
+        <type>s</type>
+        <disctype>n</disctype>
+        <waiter />
+        <authorizer />
+        <placeno>Z00000</placeno>
+        <colorsize />
+        <stdprice>32800</stdprice>
+        <x>1</x>
+        <itemvalue>32800</itemvalue>
+        <discvalue>0</discvalue>
+        <factvalue>32800</factvalue>
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-19</sysdate>
+        <systime>16:06:18</systime>
+      </sale>
+    </salelist>
+    <paymentlist>
+      <payment>
+        <reason>P</reason>
+        <type>C</type>
+        <currency>RMB</currency>
+        <value>33000</value>
+        <value_equiv>33000</value_equiv>
+        <cardno />
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-19</sysdate>
+        <systime>16:06:22</systime>
+      </payment>
+      <payment>
+        <reason>R</reason>
+        <type>C</type>
+        <currency>RMB</currency>
+        <value>-200</value>
+        <value_equiv>-200</value_equiv>
+        <cardno />
+        <trainflag>0</trainflag>
+        <sysdate>2014-05-19</sysdate>
+        <systime>16:06:22</systime>
+      </payment>
+    </paymentlist>
+  </sheet>
+  <context>
+    <storeid>SZ04</storeid>
+    <posid>P001</posid>
+    <cashierid>9901</cashierid>
+    <sheetid>1</sheetid>
+    <orderid>0</orderid>
+    <orderlstid>0</orderlstid>
+    <mode>ONLINE</mode>
+    <workdate>2014-05-19</workdate>
+  </context>
+</journal>
+

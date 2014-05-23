@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?>
+<cashbasket>
+  <cashbox>
+    <type>C</type>
+    <curren_code>RMB</curren_code>
+    <value>243300</value>
+  </cashbox>
+  <exchange_list>
+    <exchange>
+      <code>HKD</code>
+      <rate>1.05</rate>
+    </exchange>
+    <exchange>
+      <code>RMB</code>
+      <rate>1.0</rate>
+    </exchange>
+    <exchange>
+      <code>USD</code>
+      <rate>8.27</rate>
+    </exchange>
+  </exchange_list>
+  <cash_limit>100000000</cash_limit>
+</cashbasket>
+

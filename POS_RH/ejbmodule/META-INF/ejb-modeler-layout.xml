@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <view>
+    <name>Default</name>
+    <ejb>
+      <name>ShoppingCard</name>
+      <x>25</x>
+      <y>75</y>
+      <width>144</width>
+      <height>219</height>
+    </ejb>
+  </view>
+</layout>

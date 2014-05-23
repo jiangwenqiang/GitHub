@@ -1,0 +1,23 @@
+/20040914.sql/1.1/Wed Oct 20 08:38:10 2004/-kb/
+/20041020.sql/1.1/Wed Nov 10 04:29:46 2004/-kb/
+/20041102.sql/1.1/Wed Nov 10 04:29:46 2004/-kb/
+/20041103.sql/1.1/Thu Nov 18 02:03:38 2004/-kb/
+/20041111.sql/1.1/Thu Nov 11 10:30:48 2004/-kb/
+/BPPCRMS_2005040105_01_POS.sql/1.1/Thu Apr  7 10:20:36 2005/-kb/
+/BPPCRMS_2005040601_01_POS.sql/1.1/Thu Apr  7 10:20:36 2005/-kb/
+/S.1.[APPLE]----------------POS.CreateTables.sql/1.1/Wed Oct 20 08:38:24 2004/-kb/
+/S.4.[APPLE]----------------POS.InsertData.sql/1.1/Wed Oct 20 08:38:22 2004/-kb/
+/WBY20050130.sql/1.1/Mon Feb 21 09:25:24 2005/-kb/
+/dibang20041112.sql/1.1/Thu Nov 18 09:01:08 2004/-kb/
+/generate40.sql/1.1/Thu Apr  7 10:20:36 2005/-kb/
+/setcfg20040730.sql/1.1/Fri Jul 30 06:55:48 2004/-kb/
+/setcfg20040806/1.1/Wed Aug 11 06:02:14 2004/-kb/
+/setcfg20040819.sql/1.1/Wed Oct 20 08:38:32 2004/-kb/
+/setcfg20040819.sql.txt/1.1/Fri Aug 20 02:30:04 2004//
+/setcfg20040830.sql/1.1/Wed Oct 20 08:38:38 2004/-kb/
+/setcfg20040830.sql.txt/1.1/Wed Nov 10 04:29:46 2004//
+/setcfg20041025.sql/1.1/Fri Nov 12 09:51:10 2004/-kb/
+/setcfg20050321.sql/1.1/Thu Apr  7 10:20:36 2005/-kb/
+D/update_07_13////
+/wby20050221.sql/1.1/Mon Feb 21 09:25:12 2005/-kb/
+/初始化pos_ini和pos_para的数据.sql/1.1/Fri Jun 10 09:27:04 2005/-kb/

@@ -1,0 +1,78 @@
+// Decompiled by DJ v2.9.9.60 Copyright 2000 Atanas Neshkov  Date: 2004-1-18 14:25:30
+// Home Page : http://members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Win32Driver.java
+
+package com.sun.comm;
+
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Enumeration;
+import java.util.Vector;
+import javax.comm.*;
+
+// Referenced classes of package com.sun.comm:
+//            Win32ParallelPort, Win32SerialPort
+
+public class Win32Driver
+    implements CommDriver
+{
+
+    public void initialize()
+    {
+        try
+        {
+            System.loadLibrary("win32com");
+        }
+        catch(SecurityException securityexception)
+        {
+            System.err.println("Security Exception win32com: " + securityexception);
+            return;
+        }
+        catch(UnsatisfiedLinkError unsatisfiedlinkerror)
+        {
+            System.err.println("Error loading win32com: " + unsatisfiedlinkerror);
+            return;
+        }
+        Vector vector = new Vector();
+        readRegistrySerial(vector);
+        String s;
+        for(Enumeration enumeration = vector.elements(); enumeration.hasMoreElements(); CommPortIdentifier.addPortName(s, 1, this))
+            s = (String)enumeration.nextElement();
+
+        Vector vector1 = new Vector();
+        readRegistryParallel(vector1);
+        String s1;
+        for(Enumeration enumeration1 = vector1.elements(); enumeration1.hasMoreElements(); CommPortIdentifier.addPortName(s1, 2, this))
+            s1 = (String)enumeration1.nextElement();
+
+    }
+
+    public CommPort getCommPort(String s, int i)
+    {
+        Object obj = null;
+        try
+        {
+            switch(i)
+            {
+            case 1: // '\001'
+                obj = new Win32SerialPort(s);
+                break;
+
+            case 2: // '\002'
+                obj = new Win32ParallelPort(s);
+                break;
+            }
+        }
+        catch(IOException _ex) { }
+        return ((CommPort) (obj));
+    }
+
+    private static native int readRegistrySerial(Vector vector);
+
+    private static native int readRegistryParallel(Vector vector);
+
+    public Win32Driver()
+    {
+    }
+}

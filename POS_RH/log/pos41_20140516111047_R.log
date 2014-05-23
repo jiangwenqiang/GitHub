@@ -1,0 +1,8 @@
+java.io.FileNotFoundException: winkeymap.xml (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at com.royalstone.pos.keymap.WinKeyMap.<init>(WinKeyMap.java:46)
+	at com.royalstone.pos.keymap.AllKeyEventListener$TheListener.<init>(AllKeyEventListener.java:54)
+	at com.royalstone.pos.keymap.AllKeyEventListener.<init>(AllKeyEventListener.java:35)
+	at com.royalstone.pos.shell.pos.main(pos.java:166)

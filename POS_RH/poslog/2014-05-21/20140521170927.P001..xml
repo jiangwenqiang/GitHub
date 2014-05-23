@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<log>
+  <log_lst>
+    <shop_id>SZ04</shop_id>
+    <pos_id>P001</pos_id>
+    <edate>20140521</edate>
+    <etime>170927</etime>
+    <action>登录</action>
+    <resultflag>0</resultflag>
+    <cashier_id>9901</cashier_id>
+  </log_lst>
+</log>
+
